@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+body{
+    font-family: 'Italiana', serif;
+    background-color: rgb(255, 255, 101);
+}
+p{
+    font-size: 105%;
+}
+
+h1{
+    text-align: center;
+}
+
+.emoji-face{
+    background-color: #f2dd68;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px 2px rgba(0,0,0,0.07);
+    position: relative;
+}
+
+.eye1{
+    background-color: #995710;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top:30px;
+    left:20px;
+}
+
+.eye2{
+    background-color: #995710;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top:30px;
+    left:70px;
+}
+
+.mouth{
+    background-color: #995710;
+    height: 34px;
+    width: 70px;
+    border-radius: 0px 0px 90px 90px;
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    z-index: 2;
+}
+
+.mouth-shock{
+    background-color: #995710;
+    width:23px;
+    height:25px;
+    border-radius: 50%;
+    position:absolute;
+    top: 50px;
+    left: 40px;
+}
+ 
+.mouth-speechless{
+    background-color: #995710;
+    width: 70px;
+    height:5px;
+    position:absolute;
+    top:60px;
+    left:16px;
+}
+
+.emoji-face{
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+.wrapper{
+    position:absolute;
+    top:135px;
+    left:430px;
+}
+
+.emoji-face:hover{
+    transform: scale(1.27);
+}
+
+#heading{
+    text-align: center;
+    font-size: 4em;
+}
+
+.write-up{
+    background-color: #d8aa2d;
+    padding:5% 10%;
+    margin:10% 20%;
+    text-align: center;
+    border-radius: 20px;
+}
